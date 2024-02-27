@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div id="contenedor">
+            <h3>Pregunta 2</h3>
+            <label for="num1">Ingrese un numero</label>
+            <input id="num1" type="number" />
+            <br />
+            <label for="num2">Ingrese el segundo numero</label>
+            <input id="num2" type="number" />
+            <select name="operaciones" id="operaciones" title="operaciones">
+                <option value="sumar">Sumar</option>
+                <option value="restar">Restar</option>
+                <option value="multiplicar">Multiplicar</option>
+                <option value="dividir">Dividir</option>
+                <option value="modulo">Modulo</option>
+            </select>
+            <button id="btn" type="submit">Resultado</button>
+            <div></div>
+        </div>
+        <br />
+        <div id="cambioTemp">
+            <h3>Pregunta 3</h3>
+            <label for="celcius">Ingrese la Temperatura en °C</label>
+            <input type="number" id="celcius" />
+            <label for="grados">Transformar a:</label>
+            <select name="grados" id="grados">
+                <option value="kelvin">Grados Kelvin</option>
+                <option value="fahrenheit">Grados fahrenheit</option>
+            </select>
+            <button id="btnGrados" type="submit">Transformar</button>
+        </div>
+        <br />
+
+        <div id="cambioDias">
+            <h3>Pregunta 4</h3>
+            <label for="dias">Ingrese un numero en dias</label>
+            <input type="number" name="dias" id="dias" />
+            <button id="deDias" type="submit">Transformar</button>
+        </div>
+        <br />
+        <div id="sumProm">
+            <h3>Pregunta 5</h3>
+            <label for="numero1">Primer numero</label>
+            <input type="number" name="numero1" id="numero1" />
+            <br />
+            <label for="numero2">Segundo numero</label>
+            <input type="number" name="numero2" id="numero2" />
+            <br />
+            <label for="numero3">Tercer numero</label>
+            <input type="number" name="numero3" id="numero3" />
+            <br />
+            <label for="numero4">Cuarto numero</label>
+            <input type="number" name="numero4" id="numero4" />
+            <br />
+            <label for="numero5">Quinto numero</label>
+            <input type="number" name="numero5" id="numero5" />
+            <select name="promedio" id="promedio">
+                <option value="suma">Sumar</option>
+                <option value="promedio">Promedio</option>
+            </select>
+            <button id="btnProm" type="submit">Resultado</button>
+        </div>
+
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
